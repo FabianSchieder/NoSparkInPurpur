@@ -1,0 +1,11 @@
+name: NoSparkInPurpur
+author: DreamVoid
+description: Prevent purpur from downloading spark when the user doesn't need it.
+main: me.dreamvoid.some.user.dont.need.spark
+version: ${project.version}
+api-version: 1.19
+prefix: sparkremover
+webside: https://github.com/DreamVoid/${project.artifactId}
+load: STARTUP
+loadbefore:
+  - spark
